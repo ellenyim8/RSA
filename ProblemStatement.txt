@@ -1,0 +1,25 @@
+Alice’s RSA public key is P = (e, n) = (5, 901). Bob sends Alice the message by encoding it as follows. First
+he assigns numbers to characters: A is 3, B is 4, ..., Z is 28, a blank is 29, quotation marks: 30, a period:
+31, a coma: 32, an apostrophe: 33. Then he uses RSA to encode each number separately.
+
+Bob’s encoded message is:
+030 673 332 785 171 589 782 171 828 589 785 568
+782 785 713 782 813 785 123 589 828 673 589 487
+589 785 813 890 243 813 785 733 243 813 890 589
+733 243 813 673 422 769 785 673 769 785 769 673
+733 171 828 589 291 785 673 813 785 673 769 785
+782 713 828 482 785 123 589 422 243 500 769 589
+785 813 890 589 482 785 568 782 785 713 782 813
+785 549 589 243 828 673 367 589 785 890 782 587
+785 422 782 733 171 828 673 422 243 813 589 568
+785 828 673 332 589 785 673 769 777 030
+
+Decode Bob’s message. Notice that you don’t have Bob’s secret key, so you need to ”break” RSA to decrypt
+his message. For the solution, you need to provide the following:
+(a) Describe step by step how you arrived at the solution: find p and q, φ(n) and d.
+(b) Show your work (the computation) for one number in the message.
+(c) To decode the remaining numbers, you need to write a program in C++, test it on Codeforces and
+upload to canvas.
+(d) Give the decoded message (in integers).
+(e) Give Bob’s message in plaintext (also, what does it mean and who said it).
+

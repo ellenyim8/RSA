@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <vector>
 #include <math.h>
+#include <map>
 using namespace std; 
 
 int mod(int b, int e, int m){//function for modding
@@ -120,8 +121,8 @@ int main() {
       cout << endl; 
 
       //convert using : " " = 30, A = 3, B = 4, 
-      int x = 3; 
-  
+      int x = 3;
+      
       for (int i=0; i<coded_msg.size(); i++) {
         if (coded_msg[i] == x) cout << "A"; 
         else if (coded_msg[i] == x+1) cout << "B";
