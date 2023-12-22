@@ -9,8 +9,3 @@ program.
 can assume that the numbers will be assigned to characters according to the mapping above: A is 3,
 B is 4, ...
 
-![Alt text](rsa-work-1.png)
-
-
-![Alt text](rsa-work-2.png)
-
